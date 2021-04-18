@@ -8,6 +8,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div style="width:800px;">
+      <div style="background:#454545; color: #fff; padding: 10px; margin-bottom:20px; font-family: sans-serif;">
+        <h3 style="color: #fff; margin:0;"><%= @subject %></h3>
+      </div>
+
+      <div style="padding:0 10px;">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
