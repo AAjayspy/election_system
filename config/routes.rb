@@ -13,10 +13,4 @@ Rails.application.routes.draw do
     unlocks: 'accounts/unlocks'
 
   }
-  # devise_scope :accounts do
-  #   get 'sign_in', to: 'accounts/sessions#new'
-  #   get 'sign_up', to: 'accounts/registrations#new'
-  #   get 'forgot_password', to: 'accounts/passwords#new'
-  #   get 'reset_password', to: 'accounts/passwords#edit'
-  # end
 end
